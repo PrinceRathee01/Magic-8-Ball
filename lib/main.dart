@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 void main() {
  return runApp(MaterialApp(
-  home: Scaffold(appBar: AppBar(title: Center(child: Text('Magic 8 Ball',style: TextStyle(color: Colors.white),),),backgroundColor: Colors.blue.shade800,),backgroundColor: Colors.blue.shade300,
+  home: Scaffold(appBar: AppBar(title: Center(child: Text('Ask me anything',style: TextStyle(color: Colors.white),),),backgroundColor: Colors.blue.shade800,),backgroundColor: Colors.blue.shade300,
   body: _MagicBall(),),
    ),
  );
